@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="/css/bootstrap.min.css"> 
+
+  <link rel="stylesheet" href="stylesheet.css">
+  <title>surver form by freeCodeCamp project</title>
+</head>
+
+<body>
+  
+  
+ 
+ <div class="container">
+ <h1 id="title">  survey form</h1>
+ <p id="description">project by free code camp</p>
+ <form id="survey-form">
+   <label for="name" id="name-label">First Name</label>
+   <input type="text" name="firstname" id="name"placeholder=" your firstname"  required>
+   <br>
+   <label for="Last Name">Last Name</label>
+   <input type="text" name="Lastname" id="lastname"placeholder="your lastname"required><br>
+   <label for="email"id="email-label" >email</label>
+   <input type="Email"id="email"placeholder="your email"required><br>
+   <label for="number" id="number-label">Mobile no</label>
+   <input type="text" id="number" maxlength="10">
+   <br>
+   <p>What is your favorite feature of freeCodeCamp?</p>
+   <select name="dropdown" id="dropdown" >
+     <option value="enter" disabled selected>choose any one here</option>
+ 
+     <option value="student">student</option>
+      <option value="full time joob">full time job</option>
+      <option value="part time job">part time job</option>
+      <option value="prefer not to say">prefer not to say</option>
+    
+   </select>
+   
+   <p>what are the programing language want to learn?</p>
+   <input type="radio" id="python" name="language" value="python">
+   <label for="python">python</label><br>
+     <input type="radio" id="java" name="language" value="java">
+   <label for="java">java</label><br>
+     <input type="radio" id="python" name="language" value="javascript">
+   <label for="javascript">javascript</label><br>
+     <input type="radio" id="dart" name="language" value="dart">
+   <label for="dart">Dart</label><br>
+     <input type="radio" id="ruby" name="language" value="ruby">
+   <label for="ruby">Ruby</label><br>
+   <p>select the language that you know already</p>
+   <input type="checkbox" id="html" name="html" value="html">
+   <label for="html">html</label><br>
+     <input type="checkbox" id="css" name="css" value="css">
+   <label for="css">css</label><br>
+     <input type="checkbox" id="javascript" name="javascript" value="javascript">
+   <label for="javascript">javascript</label><br>
+   <p>any comments or any suggestins?</p>
+   <textarea name="comment" id="" placeholder="comment here" cols="50" rows="5"></textarea>
+   <br>
+<input type="submit" id="submit" value="submit" >
+  
+   
+ </form>  
+   
+ 
+ 
+ 
+ </div>
+ </body>
+ 
+
+
+
+</body>
+
+</html>
